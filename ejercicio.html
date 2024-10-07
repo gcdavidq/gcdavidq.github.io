@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Información sobre ejercicio físico, alimentación y levantamiento de pesas">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <meta name="generator" content="Astro v4.4.5">
+        <title>Ejercicio Físico - Gian Quezada</title>
+        <meta name="astro-view-transitions-enabled" content="true">
+        <meta name="astro-view-transitions-fallback" content="animate">
+        <link rel="stylesheet" href="/_astro/components.-oNJQx9s.css"/>
+        <script type="module" src="/_astro/hoisted.MZ8AMbr_.js"></script>
+    </head>
+    <body class="relative text-black dark:text-white">
+        <div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-gray-50 dark:bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+
+        <!-- Header con Navegación -->
+        <header class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2">
+            <nav class="flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center">
+                <!-- Navegación para regresar a la página principal -->
+                <a class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500" aria-label="inicio" href="index.html">Inicio</a>
+                <a class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500" aria-label="importancia" href="ejercicio.html#importancia">Importancia</a>
+                <a class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500" aria-label="ejercicio fisico" href="ejercicio.html#ejercicio fisico">Ejercicio Fisico</a>
+                <a class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500" aria-label="alimentacion" href="ejercicio.html#alimentacion">Alimentacion</a>
+                <a class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500" aria-label="horas de sueño" href="ejercicio.html#horas de sueño">Horas de sueño</a>
+                <div class="relative ml-1 mr-1" data-astro-cid-x3pjskd3></div>
+                    <button id="theme-toggle-btn" class="appearance-none border-none flex hover:scale-125 transition" data-astro-cid-x3pjskd3 data-astro-transition-persist="astro-ko5uysgj-1">
+                        <span class="sr-only" data-astro-cid-x3pjskd3>Elige el tema</span>
+                        <svg id="light" class="theme-toggle-icon size-5 transition-all" data-astro-cid-x3pjskd3 width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+                        </svg>
+                        <svg id="dark" class="theme-toggle-icon absolute size-5 transition-all" data-astro-cid-x3pjskd3 width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+                        </svg>
+                        <svg id="system" class="theme-toggle-icon absolute size-5 transition-all" data-astro-cid-x3pjskd3 width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z"></path>
+                            <path d="M7 20h10"></path>
+                            <path d="M9 16v4"></path>
+                            <path d="M15 16v4"></path>
+                        </svg>
+                    </button>
+                    <div id="themes-menu" class="absolute hidden scale-80 top-8 right-0 text-sm p-1 min-w-[8rem] rounded-md border border-gray-100 bg-white/90 dark:bg-gray-900/90 dark:border-gray-500/20 shadow-[0_3px_10px_rgb(0,0,0,0.2)] backdrop-blur-md" data-astro-cid-x3pjskd3 data-astro-transition-persist="astro-d5hlxqxh-2">
+                        <ul data-astro-cid-x3pjskd3>
+                            <li class="themes-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm" data-astro-cid-x3pjskd3>Light </li>
+                            <li class="themes-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm" data-astro-cid-x3pjskd3>Dark </li>
+                            <li class="themes-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm" data-astro-cid-x3pjskd3>System </li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    let remove = null
+                    const matchMedia = window.matchMedia("(prefers-color-scheme: dark)")
+                    const themesMenu = document.getElementById("themes-menu")
+
+                    const getThemePreference = () => {
+                        if (typeof localStorage !== "undefined") {
+                            return localStorage.getItem("theme") ?? "system"
+                        }
+
+                        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+                    }
+
+                    const updateIcon = (themePreference) => {
+                        document.querySelectorAll(".theme-toggle-icon").forEach((element) => {
+                            element.style.opacity = element.id === themePreference ? "1" : "0";
+                            element.style.position = element.id === themePreference ? "static" : "absolute";
+                        });
+                    };
+
+
+                    const updateTheme = () => {
+                        if (remove != null) {
+                            remove()
+                        }
+                        matchMedia.addEventListener("change", updateTheme)
+                        remove = () => {
+                            matchMedia.removeEventListener("change", updateTheme)
+                        }
+
+                        const themePreference = getThemePreference()
+                        const isDark = themePreference === "dark" || (themePreference === "system" && matchMedia.matches)
+
+                        updateIcon(themePreference)
+                        document.documentElement.classList[isDark ? "add" : "remove"]("dark")
+                    }
+
+                    updateTheme()
+
+                    document.addEventListener("click", () => themesMenu.classList.remove("open"))
+
+                    document.getElementById("theme-toggle-btn").addEventListener("click", (e) => {
+                        e.stopPropagation()
+                        const isClosed = !themesMenu.classList.contains("open");
+                        themesMenu.classList.toggle("hidden", !isClosed);
+                        themesMenu.classList.toggle("open", isClosed);
+
+                    }
+                    )
+
+                    document.querySelectorAll(".themes-menu-option").forEach( (element) => {
+                        element.addEventListener("click", (e) => {
+                            const selectedTheme = e.target.innerText.toLowerCase().trim()
+                            localStorage.setItem("theme", e.target.innerText.toLowerCase().trim())
+                            updateTheme()
+                        }
+                        )
+                    }
+                    )
+
+                    document.addEventListener('astro:after-swap', () => {
+                        updateTheme();
+                        window.scrollTo({
+                            left: 0,
+                            top: 0,
+                            behavior: 'instant'
+                        });
+                    }
+                    )
+                </script>
+            </nav>
+        </header>
+        <main class="px-4">
+            <section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+                <div class="max-w-xl">
+                    
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">CUIDADO FISICO
+</h1>
+                    <p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
+                        En esta sección, mencionaremos la importancia del cuidado fisico y como lo podemos lograr.</strong>
+
+
+                    </p>
+    
+                    </nav>
+                </div>
+            </section>
+            <div class="space-y-24">
+                <section id="importancia" data-section="importancia" class="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+                    <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined">
+                        <svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+                            <path d="M12 12l0 .01"></path>
+                            <path d="M3 13a20 20 0 0 0 18 0"></path>
+                        </svg>
+
+                        Importancia
+
+                    </h2>
+                    <div class="flex flex-col gap-y-16">
+                        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                            <div class="w-full md:w-1/2">
+                                <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                                    <img alt="Importancia" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src="/projects/svgl.webp">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-1/2 md:max-w-lg">
+                                <h3 class="text-lg text-gray-800 dark:text-gray-400">El cuidado físico es esencial para prevenir enfermedades crónicas, mejorar la salud mental y el bienestar, incrementar la energía y productividad, fortalecer huesos y músculos, y, en general, mejorar la calidad de vida. La actividad física regular, una alimentación balanceada y el descanso adecuado contribuyen a mantener el cuerpo y la mente en óptimas condiciones, promoviendo una mayor longevidad, independencia y autoestima. </h3>
+                                <div class="flex flex-wrap mt-2">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </section>
+            <div class="space-y-24">
+                <section id="ejercicio fisico" data-section="ejercicio fisico" class="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+                    <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined">
+                        <svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+                            <path d="M12 12l0 .01"></path>
+                            <path d="M3 13a20 20 0 0 0 18 0"></path>
+                        </svg>
+
+                        Ejercicio Fisico
+
+                    </h2>
+                    <div class="flex flex-col gap-y-16">
+                        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                            <div class="w-full md:w-1/2">
+                                <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                                    <img alt="Ejercicio Fisico" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src="/projects/svgl.webp">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-1/2 md:max-w-lg">
+                                <h3 class="text-lg text-gray-800 dark:text-gray-400">El levantamiento de peso es una forma fundamental de ejercicio físico que contribuye significativamente al fortalecimiento muscular, la densidad ósea y la mejora del metabolismo. Su práctica regular no solo ayuda a aumentar la fuerza y la resistencia, sino que también previene enfermedades relacionadas con la pérdida de masa ósea, como la osteoporosis, y 
+                                    facilita la quema de grasa, lo cual es crucial para el control del peso. 
+                                    Además, el levantamiento de peso promueve el bienestar mental al liberar endorfinas, 
+                                    mejorando así el estado de ánimo, la autoestima y reduciendo el estrés y la ansiedad </h3>
+                                <div class="flex flex-wrap mt-2">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+            </section>
+            <div class="space-y-24">
+                <section id="alimentacion" data-section="alimentacion" class="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+                    <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined">
+                        <svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+                            <path d="M12 12l0 .01"></path>
+                            <path d="M3 13a20 20 0 0 0 18 0"></path>
+                        </svg>
+
+                        Alimentación
+
+                    </h2>
+                    <div class="flex flex-col gap-y-16">
+                        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                            <div class="w-full md:w-1/2">
+                                <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                                    <img alt="Buena Alimentacion" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src="/projects/svgl.webp">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-1/2 md:max-w-lg">
+                                <h3 class="text-lg text-gray-800 dark:text-gray-400">Una buena alimentación es fundamental para mantener una salud óptima, 
+                                    ya que proporciona al cuerpo los nutrientes esenciales que necesita para funcionar adecuadamente, 
+                                    incluyendo energía para las actividades diarias, vitaminas y minerales para fortalecer el sistema inmunológico, 
+                                    y proteínas para la reparación y el crecimiento de los tejidos. Además, 
+                                    una dieta balanceada contribuye a la prevención de enfermedades crónicas como la diabetes, 
+                                    hipertensión y enfermedades cardiovasculares, 
+                                    y es clave para mantener un peso saludable, mejorar el bienestar mental, y promover una mejor calidad de vida y longevidad. </h3>
+                                <div class="flex flex-wrap mt-2">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+            </section>
+            <div class="space-y-24">
+                <section id="horas de sueño" data-section="horas de sueño" class="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+                    <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined">
+                        <svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+                            <path d="M12 12l0 .01"></path>
+                            <path d="M3 13a20 20 0 0 0 18 0"></path>
+                        </svg>
+
+                        Horas de Sueño
+
+                    </h2>
+                    <div class="flex flex-col gap-y-16">
+                        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                            <div class="w-full md:w-1/2">
+                                <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                                    <img alt="Buen Descanso" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src="/projects/svgl.webp">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-1/2 md:max-w-lg">
+                                <h3 class="text-lg text-gray-800 dark:text-gray-400">
+                                    Un buen descanso es esencial para la salud y el bienestar general, 
+                                    ya que durante el sueño el cuerpo realiza procesos críticos como la reparación de tejidos, 
+                                    la consolidación de la memoria y el equilibrio de hormonas que regulan el estado de ánimo y el apetito. 
+                                    Dormir adecuadamente mejora el sistema inmunológico, incrementa la concentración y la productividad, 
+                                    y reduce el riesgo de desarrollar enfermedades crónicas como la hipertensión y la diabetes. 
+                                    Además, el descanso de calidad es fundamental para la estabilidad emocional, 
+                                    reduciendo el estrés y la ansiedad, y contribuyendo al equilibrio físico y mental.
+                                </h3>
+                                <div class="flex flex-wrap mt-2">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+
+                    
+        </main>
+        <footer class="opacity-80 m-4 min-[375px]:pl-4 md:pl-0 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center">
+            <div class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4">
+                <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90">
+                    © 2024 <a href="" class="hover:underline">Gian Carlos</a>
+                    . Casi
+todos los derechos reservados
+
+                </span>
+                <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
+                    <li>
+                        <a href="/#sobre-mi" class="hover:underline me-4 md:me-6">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a id="contacto" href="gcdavidq12@gmail.com" class="hover:underline">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
